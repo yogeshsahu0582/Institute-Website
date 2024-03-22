@@ -1,0 +1,177 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+
+body{ 
+  
+}
+
+/* HEADER PART */
+
+.header{
+  margin-top: 0;
+  width: 100%;
+  line-height: 1.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Taviraj Black 900 Italic', serif;
+  font-size: 25px;
+  color: darkgreen;
+}
+
+/*-------------NAVIGATION BAR--------------------*/
+.right-nav{
+  float: right;
+
+}
+
+
+/*-------------About Page--------------------*/
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Life@GPC */
+
+/* --------GPC-Betul------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+
+  padding: 10px;
+}
+
+.grid-container > div {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+
+}
+
+.container:hover .overlay {
+  height: 100%;
+  background: rgba(255,255,255,.5);
+
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* -----------footer----------- */
+footer{
+      display: block;
+      background-color: #59335c;
+      color:white;
+    }
+    footer p{
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    footer h4{
+      color: mediumpurple;
+    }
+    .col-container {
+      display: table;
+      width: 100%;
+    }
+    .col {
+      display: table-cell;
+      padding: 16px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      line-height: 2;
+
+
+    }
+    ul a{
+      color: #08c4bb;
+      text-decoration: none;
+    }
+    
+    .fa {
+      padding: 5px;
+      font-size: 15px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      margin: 3px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
